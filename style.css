@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* semeler style */
+.btn-primary {
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: 0;
+    color: rgb(0, 95, 172);
+}
+/* google font family */
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+/* banner section starting */
+.banner {
+    display: flex;
+    justify-content: right;
+    /* border: 2px solid gray; */
+    background-image: url('images/banner/banner3.png');
+    background-size: cover;
+}
+.banner-section {
+    width: 20%;
+    /* border: 2px solid gray; */
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    margin: 200px 200px;
+}
+.banner-description {
+    font-size: 16px;
+    font-weight: 400;
+}
