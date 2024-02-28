@@ -21,13 +21,11 @@ body {
 .banner {
     display: flex;
     justify-content: right;
-    /* border: 2px solid gray; */
     background-image: url('images/banner/banner3.png');
     background-size: cover;
 }
 .banner-section {
     width: 20%;
-    /* border: 2px solid gray; */
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 700;
@@ -37,4 +35,131 @@ body {
 .banner-description {
     font-size: 16px;
     font-weight: 400;
+}
+/* failures year */
+.failaur-header {
+    display: flex;
+    margin: 100px 273px;
+    justify-content: center;
+}
+.profile-picture {
+    width: 400px;
+}
+.failaur-years {
+    width: 30%;
+    font-size: 23px;
+    margin-top: 122px;
+    margin-left: 103px;
+}
+.failaur-title {
+    color: rgb(21, 20, 20);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+.failaur-description {
+    color: rgb(68, 67, 67);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    padding-left: 42px;
+}
+.list-item {
+    text-align: left;
+}
+.list {
+    list-style: none;
+    font-size: 12px;
+}
+.list :before {
+    content: '✓';
+    color: rgb(22, 216, 135);
+    content: "\2713\0020";
+}
+/* my plan section */
+.my-plan-section {
+    margin: 0px 300px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.icon-imgs {
+    width: 50px;
+}
+.failaur-title {
+    text-align: center;
+}
+
+/* mindset-section */
+.mindset-section {
+    margin: 86px 229px;
+    background: url('images/gradient1.png'), url('images/watch.png');
+    border-radius: 5px;
+    border: none;
+}
+.mindset-heading {
+    color: rgb(255, 255, 255);
+    font-size: 31px;
+    font-weight: 700;
+}
+.mindset-titile {
+    padding: 12px 30px;
+}
+/* footer section style */
+
+footer {
+    display: flex;
+    background: rgb(21, 20, 20);
+    color: rgb(255, 255, 255);;
+    padding: 130px 230px;
+}
+.footer-column1 {
+    width: 168%;
+    padding: 20px 20px;
+}
+.footer-column2 {
+    width: 50%;
+    padding: 20px 0px;
+    margin: 0px 100px;
+}
+.section-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.section-description {
+    font-size: 12px;
+    font-weight: 400;
+}
+.contact input {
+    display: block;
+    margin-bottom: 25px;
+    padding: 8px 15px;
+    border: 1px solid rgb(255, 255, 255);
+    background: border-box;
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+}
+.primary {
+    background: rgb(0, 95, 172);
+    color: rgb(255, 255, 255);
+    width: 57%;
+    height: 40%;
+    border-radius: 8px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.social-icon{
+    width: 50%;
+}
+.social-links {
+    display: flex;
 }
